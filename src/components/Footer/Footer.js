@@ -13,7 +13,7 @@ const Footer = () => {
         <FacebookIcon />
         <LinkedInIcon />
       </div>
-      <p> &copy; 2022 abuJafar.com</p>
+      <p> &copy; 2022 Abu Jafar.com</p>
     </div>
   );
 };

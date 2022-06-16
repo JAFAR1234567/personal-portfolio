@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import ReorderIcon from "@material-ui/icons/Reorder";
@@ -17,9 +17,9 @@ const Navbar = () => {
         </button>
       </div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/experience">Experience</NavLink>
       </div>
     </div>
   );
